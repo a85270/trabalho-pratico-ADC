@@ -31,19 +31,19 @@ def imprime_lista(cabecalho, lista):
         print(tabulate(lista_a_imprimir, headers="firstrow", tablefmt='psql'))
 
         def pause():
-    """Faz uma pausa no programa e espera que o utilizador pressione ENTER"""
+            """Faz uma pausa no programa e espera que o utilizador pressione ENTER"""
 
     input("Pressione ENTER para continuar...")
 
 
     def pergunta_id(questao, lista, mostra_lista=False):
-    """TODO: documentação
+        """TODO: documentação
 
-    :param questao:
-    :param lista:
-    :param mostra_lista:
-    :return:
-    """
+        :param questao:
+        :param lista:
+        :param mostra_lista:
+        :return:
+        """
 
     if mostra_lista:
         imprime_lista(cabecalho="", lista=lista)
